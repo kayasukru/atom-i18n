@@ -1,0 +1,29 @@
+Welcome:
+  tabTitle: "Hoşgeldiniz"
+  subtitle: {
+    text1: "21. Yüzyılın açık kaynaklı editörü"
+    superscript: ""
+    text2: " "
+  }
+  help: {
+    forHelpVisit: "Yardım almak için ziyaret edin"
+    atomDocs: {
+      text1: "API başvuru ve rehberler "
+      link: "atom.io/docs"
+      text2: " buradadır."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomForum: {
+      text1: "Atom forum "
+      link: "discuss.atom.io"
+      text2: ""   # optional
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+    atomOrg: {
+      text1: "GitHub tarafından oluşturulan tüm Atom paketlerinin bulunduğu yer "
+      link: "atom.io"
+      text2: ".  burasıdır."
+      _template: "${text1}<a>${link}</a>${text2}"
+    }
+  }
+  showWelcomeGuide: "Atom açıldığında Hoşgeldiniz Rehberini göster"

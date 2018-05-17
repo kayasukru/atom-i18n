@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "atom-i18n",
   "main": "./lib/main",
   "version": "0.14.1",
@@ -100,6 +100,10 @@
         {
           "value": "th",
           "description": "ภาษาไทย (th)"
+        },
+        {
+          "value": "tr",
+          "description": "Türkçe (tr)"
         },
         {
           "value": "zh-cn",

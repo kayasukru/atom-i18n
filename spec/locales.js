@@ -14,6 +14,7 @@ const LOCALES = [
   'pt-br',
   'ru',
   'th',
+  'tr',
   'zh-cn',
   'zh-tw',
   'template',

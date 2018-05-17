@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Eleman İncele"
+  "atom-text-editor":
+    "color-picker:open": "Renk Seçici"
+    "minimap:toggle": "Toggle Minimap"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Geri Al"
+    "core:redo": "Yinele"
+    "core:cut": "Kes"
+    "core:copy": "Kopyala"
+    "core:paste": "Yapıştır"
+    "core:delete": "Sil"
+    "core:select-all": "Tümünü Seç"
+    "pane:split-up-and-copy-active-item": "Üstten Böl"
+    "pane:split-down-and-copy-active-item": "Alttan Böl"
+    "pane:split-left-and-copy-active-item": "Soldan Böl"
+    "pane:split-right-and-copy-active-item": "Sağdan Böl"
+    "pane:close": "Paneli Kapat"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "Üstten Böl"
+    "pane:split-down-and-copy-active-item": "Alttan Böl"
+    "pane:split-left-and-copy-active-item": "Soldan Böl"
+    "pane:split-right-and-copy-active-item": "Sağdan Böl"
+    "pane:close": "Paneli Kapat"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Kodlama Değiştir"
+    "spell-check:correct-misspelling": "Doğru Heceleme"
+    "symbols-view:go-to-declaration": "Bildirime Git"
+  ".overlayer":
+    "grammar-selector:show": "Dilbilgisini Değiştir"
+  ".image-view":
+    "image-view:reload": "Resmi Yeniden Yükle"
+  ".tab":
+    "tabs:close-tab": "Sekmeyi Kapat"
+    "tabs:close-other-tabs": "Diğer Sekmeleri Kapat"
+    "tabs:close-tabs-to-right": "Sağdaki Sekmeleri Kapat"
+    "tabs:close-tabs-to-left": "Soldaki Sekmeleri Kapat"
+    "tabs:close-saved-tabs": "Kaydedilmiş Sekmeleri Kapat"
+    "tabs:close-all-tabs": "Tüm Sekmeleri Kapat"
+    "tabs:split-up": "Üstten Böl"
+    "tabs:split-down": "Alttan Böl"
+    "tabs:split-left": "Soldan Böl"
+    "tabs:split-right": "Sağdan Böl"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "Yeni Pencerede Aç"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "Keep Pending Tab"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Kapanan Sekmeyi Yeniden Aç"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "Yeni Dosya"
+    "tree-view:add-folder": "Yeni Klasör"
+    "tree-view:move": "Yeniden Adlandır"
+    "tree-view:duplicate": "Çoğalt"
+    "tree-view:remove": "Sil"
+    "tree-view:copy": "Kopyala"
+    "tree-view:cut": "Kes"
+    "tree-view:paste": "Yapıştır"
+    "tree-view:open-selected-entry-up": "Üstten Böl"
+    "tree-view:open-selected-entry-down": "Alttan Böl"
+    "tree-view:open-selected-entry-left": "Soldan Böl"
+    "tree-view:open-selected-entry-right": "Sağdan Böl"
+    "application:add-project-folder": "Proje Klasörü Ekle"
+    "tree-view:copy-full-path": "Tam Yolu Kopyala"
+    "tree-view:copy-project-path": "Proje Yolunu Kopyala"
+    "tree-view:open-in-new-window": "Yeni Pencerede Aç"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Üstten Böl"
+    "tree-view:open-selected-entry-down": "Alttan Böl"
+    "tree-view:open-selected-entry-left": "Soldan Böl"
+    "tree-view:open-selected-entry-right": "Sağdan Böl"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "Yeni Dosya"
+    "tree-view:add-folder": "Yeni Klasör"
+    "tree-view:move": "Yeniden Adlandır"
+    "tree-view:duplicate": "Çoğalt"
+    "tree-view:remove": "Sil"
+    "tree-view:copy": "Kopyala"
+    "tree-view:cut": "Kes"
+    "tree-view:paste": "Yapıştır"
+    "tree-view:open-selected-entry-up": "Üstten Böl"
+    "tree-view:open-selected-entry-down": "Alttan Böl"
+    "tree-view:open-selected-entry-left": "Soldan Böl"
+    "tree-view:open-selected-entry-right": "Sağdan Böl"
+    "application:add-project-folder": "Proje Klasörü Ekle"
+    "tree-view:remove-project-folder": "Proje Klasörü Sil"
+    "tree-view:copy-full-path": "Tam Yolu Kopyala"
+    "tree-view:copy-project-path": "Proje Yolunu Kopyala"
+    "tree-view:open-in-new-window": "Yeni Pencerede Aç"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Bulucuda Göster"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Gezginde Göster"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "Dosya Yöneticisinde Göster"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "Klasörde Ara"
+  ".tree-view .multi-select":
+    "tree-view:remove": "Sil"
+    "tree-view:copy": "Kopyala"
+    "tree-view:cut": "Kes"
+    "tree-view:paste": "Yapıştır"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Ağaç Görünümünde Göster"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "Yeniden Adlandır"
+    "tree-view:reveal-active-file": "Ağaç Görünümünde Göster"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Bulucuda Göster"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Gezginde Göster"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "Dosya Yöneticisinde Göster"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Bulucuda Göster"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Gezginde Göster"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "Dosya Yöneticisinde Göster"
